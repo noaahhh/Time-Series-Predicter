@@ -19,25 +19,27 @@ LSTM multivariate models forecast DXY ann Gold ounce price with many financial t
 C-LSTM models is the version of multivariate models that added convolitional and pooling layer. 
 
 # Installation
-For two ipynb , you can download latest version of imported library at the beginning of notebook for both.
+you can download latest version of imported library at the beginning of notebook for all or just install requirements.txt.
+
 ``` sh 
 keras-latest
 tensorflow-latest
 matplotlib-latest
+pandas_datareader
+
+#or
+pip install -r requirements.txt
+
 ```
 
 for installation you can use:
 ``` sh
-pip3 install keras  matplotlib tensorflow --upgrade 
+pip3 install keras  matplotlib tensorflow pandas_datareader --upgrade 
+
 ```
+# Usage
 
+All notebooks can runnable end to end. Just click `run All` in jupyter notebook.
 
-# Related link
- 
- You can see the gist these link:
-
-[TechnicalAnalysis](https://gist.github.com/noaahhh/b96d769ea9339f261974d8b5e100a492)
-
-[timeSeriesPredicter](https://gist.github.com/noaahhh/f0d180f3023ac083c9b1c5478f3b1d4c)
-
-
+# Prediction Period
+  <img src="assets/images/dxy-splits.png" >
