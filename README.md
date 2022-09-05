@@ -43,3 +43,5 @@ All notebooks can runnable end to end. Just click `run All` in jupyter notebook.
 
 # Prediction Period
   <img src="assets/images/dxy-splits.png" >
+
+Train, validation test splits is like the plot above. The last 365 trading days is test dataset. Rest of the datasets splits as 70:30. %70 is train and %30 validation dataset
